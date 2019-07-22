@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('img/bg2.png');
+}
+
+.container {
+    margin: 10% auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20%;
+    color: #39a5f1;
+    font-size: 46px;
+}
+
+main {
+    text-align: center;
+    margin: 10% auto;
+    width: 300px;
+    background: #343a40;
+    padding: 30px 25px 30px 40px;
+    height: 300px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000, 5px 5px 15px 5px #000; 
+    box-shadow: 0px 10px 13px -7px #000, 5px 5px 15px 5px #000;
+}
+
+#screen {
+    width: 265px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    text-align: right;
+    background: #c1c1c1;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 5px;
+}
+
+#screen:focus {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.btn {
+    outline: none;
+    width: 70px;
+    margin: 1px;
+    height: 40px;
+    border: 1px solid #000;
+    font-size: 21px;
+    float: left;
+    background: #c1c1c1;
+    border-radius: 5px;
+}
+
+.btn:hover, .btn:focus, .btn:active, .zero:hover, .zero:focus, .zero:active {
+    background: #9f9f9f;
+    -webkit-box-shadow: inset 0px 0px 5px #9f9f9f;
+    -moz-box-shadow: inset 0px 0px 5px #9f9f9f;
+    box-shadow: inset 0px 0px 5px #9f9f9f;
+}
+
+.spec {
+    background: #39a5f1;
+    outline: none;
+    font-size: 21px;
+}
+
+.spec:hover, .spec:focus, .spec:active, .add:hover, .add:focus, .add:active {
+    background: #0f84d7;
+    -webkit-box-shadow: inset 0px 0px 5px #0f84d7;
+    -moz-box-shadow: inset 0px 0px 5px #0f84d7;
+    box-shadow: inset 0px 0px 5px #0f84d7;
+}
+
+.add {
+    background: #39a5f1;
+    outline: none;
+    width: 70px;
+    height: 80px;
+    border: 1px solid #000;
+    font-size: 21px;
+    float: right;
+    margin-right: 13px;
+    border-radius: 5px;
+}
+
+.zero {
+    outline: none;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #000;
+    font-size: 21px;
+    float: left;
+    margin-left: 1px;
+    background: #c1c1c1;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+    .container { margin: 5% auto; }
+    h1 { margin-top: 20%; }
+    main { margin: 10% auto; }
+}
+
+@media only screen and (min-width: 1000px) {
+    .container { margin: 5% auto; }
+    h1 { margin-top: 10%; }
+    main { margin: 5% auto; }
+}
